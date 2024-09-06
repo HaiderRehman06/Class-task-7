@@ -12,7 +12,7 @@
             text-align: center;
             font-size: 25px;
        }
-       input{
+       input,button{
             width: 200px;
             height: 50px;
             font-size: 20px;
@@ -24,15 +24,16 @@
 <body>
     <div class="container">
         <div>
-            <h1>Question No:1</h1>
+            <h1>Question No:2</h1>
             <p>what is the tallest Building in the world?</p>
             <a href="./index.html"><input type="button" value="Previous Queation" ></a>
-            <input type="button" value="Burj Khalifa" onclick="alert('Correct!');"">
-            <input type="button" value="Empire Building"  onclick="alert('Incorrect!');">
-            <input type="button" value="The Clock Tower" onclick="alert('Incorrect!');"">
-            <input type="button" value="Burj ul Arab" onclick="alert('Incorrect!');"">
-            <a href="./third-question.html"><input type="button" value="Next Question"></a>
+            <button   onclick="tallestBuiling();" id="correct2">Burj Khalifa</button>
+            <button   onclick="tallestBuiling();">Empire Building</button>
+            <button   onclick="tallestBuiling();">The Clock Tower</button>
+            <button   onclick="tallestBuiling();">Burj ul Arab</button>   
         </div>
+        
     </div>
+    <script src="./script.js"></script>
 </body>
 </html>

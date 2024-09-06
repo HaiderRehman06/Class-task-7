@@ -13,13 +13,16 @@
             text-align: center;
             font-size: 25px;
        }
-       input{
+       button,input{
             width: 200px;
             height: 50px;
             font-size: 20px;
             border-radius: 5px;
             margin-top: 20px;
        }
+       .container div{
+            margin-top: 50px;
+    }
     </Style>
 </head>
 <body>
@@ -27,11 +30,11 @@
         <div>
             <h1>Question No:1</h1>
             <p>What is the smallest city in the world?</p>
-            <input onmouseover="" type="button" value="Italy" onclick="alert('Incorrect!');"">
-            <input type="button" value="Vatican City"  onclick="alert('Correct!');">
-            <input type="button" value="China" onclick="alert('Incorrect!');"">
-            <input type="button" value="Chile" onclick="alert('Incorrect!');"">
-            <a href="./second-question.html"><input type="button" value="Next Question"></a>
+            <button  onclick="smallestCity();">Italy</button>
+            <button  onclick="smallestCity();">Vatican City</button>
+            <button  onclick="smallestCity();">China</button>
+            <button  onclick="smallestCity();">Chile</button>
+            
         </div>
     </div>
     <script src="./script.js"></script>

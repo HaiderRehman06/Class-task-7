@@ -1,4 +1,9 @@
 {
     "pieces.cloudCapabilities": "Blended",
-    "pieces.telemetry": true
+    "pieces.telemetry": true,
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#55190B",
+        "titleBar.activeBackground": "#77230F",
+        "titleBar.activeForeground": "#FFFCFB"
+    }
 }
